@@ -1,27 +1,57 @@
-#header {
-    display:flex;
+header {
+    display: flex;
     justify-content: space-between;
     flex-direction: row;
-    
-}
-
-#head-left {
 
 }
 
-#head-right {
-    display: flex;
-    justify-content: flex-end;
-    flex-direction:row;
+.head-left {}
+
+
+
+.hr-items {
+    padding: 2px;
 }
 
-#hr-buttobs {
+.gb {
+
+    border: solid black;
+
+}
+
+.hr-top {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
+
+.hr-bot {
+    display: flex;
+    justify-content: flex-end;
+}
+
+input.search {
+    width: 240px;
+    height: 25px;
+}
+
+button.search {
+    width: 30px;
+    height: 30px;
+}
+
+section.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+p.links {}
 
 #bottom {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+}
+
+.bottom {
+    padding: 4px;
 }
