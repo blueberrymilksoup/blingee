@@ -1,0 +1,27 @@
+#header {
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+#head-left {
+
+}
+
+#head-right {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction:row;
+}
+
+#hr-buttobs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#bottom {
+    display: flex;
+    justify-content: space-between;
+}
