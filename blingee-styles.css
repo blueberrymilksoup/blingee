@@ -1,3 +1,8 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -5,17 +10,8 @@ header {
 
 }
 
-.head-left {}
-
-
-
-.hr-items {
-    padding: 2px;
-}
-
-.gb {
-
-    border: solid black;
+.hl {
+    margin-bottom: 15px;
 
 }
 
@@ -25,33 +21,109 @@ header {
     justify-content: flex-end;
 }
 
-.hr-bot {
+.hr-items {
+    padding: 2px;
+}
+
+.gb {
+    border: solid black;
+}
+
+section.hr-bot {
     display: flex;
     justify-content: flex-end;
 }
 
-input.search {
+input.hr-bot {
     width: 240px;
     height: 25px;
 }
 
-button.search {
+button.hr-bot {
     width: 30px;
     height: 30px;
 }
 
+section.make{
+    display: flex;
+}
+
+b.make{
+    border: 3px solid #80bf45;
+    border-top-left-radius: 8px;
+    background-color: #80bf45;
+    color: white;
+    padding-left: 25px;
+    padding-right: 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size:large;
+}
+
+div.make{
+    border-right: 30px solid transparent;
+    border-left:15px solid #80bf45;
+    border-bottom: 34px solid #80bf45;
+}
+
+.make:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
 section.links {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    margin-bottom: 0px;
+    background-color: #ffc1c9;
 }
 
-p.links {}
+p.links {
+    padding: 10px;
+    border: solid #ffa6b2 1px;
+    border-bottom: transparent;
+    border-top-color: #e73e68;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    background-color: #ff809f;
+    color: white;
+    font-size: larger;
+    margin-bottom: 0px;
+    margin-top:10px;
+}
 
-#bottom {
+p.links:hover{
+    color:yellow;
+}
+
+#home{
+    background-color: #e73e68;
+}
+
+section.drop{
+    background-color: #e73e68;
+    margin-top: 0px;
+}
+
+div.drop{
+    margin-top: 0px;
+    border:1px;
+    color:white;
+}
+
+footer {
     display: flex;
     justify-content: flex-end;
+    background-color: #ff7291;
+    padding: 5px;
 }
 
-.bottom {
+b.bottom {
     padding: 4px;
+    color: white;
+    font-size: medium;
+}
+
+b.bottom:hover{
+    text-decoration: underline;
 }
