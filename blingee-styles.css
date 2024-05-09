@@ -3,15 +3,20 @@
     padding: 0; 
 }
 
+.align {
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-
 }
 
 .hl {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 
 }
 
@@ -21,12 +26,29 @@ header {
     justify-content: flex-end;
 }
 
-.hr-items {
-    padding: 2px;
+p.hr {
+    padding-left: 6px;
+    padding-right: 6px;
+    color:#e73e68;
+    text-decoration: underline;
+    font-size: medium;
 }
 
-.gb {
-    border: solid black;
+p.hr1{
+    padding-top:2px;
+    font-size: medium;
+}
+
+p.gb {
+    border: 1px solid #e73e68;
+    border-top: 0px transparent;
+    padding: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    margin-bottom: 6px;
+    background-color:#ffe7ea
 }
 
 section.hr-bot {
@@ -37,6 +59,7 @@ section.hr-bot {
 input.hr-bot {
     width: 240px;
     height: 25px;
+    border: 1px solid #e73e68;
 }
 
 button.hr-bot {
@@ -72,10 +95,14 @@ div.make{
 }
 
 section.links {
-    display: flex;
-    justify-content: flex-start;
-    margin-bottom: 0px;
+    
+    border-bottom: 2px solid #e73e68;
     background-color: #ffc1c9;
+}
+
+div.links{
+    display: flex;
+    justify-content: stretch;
 }
 
 p.links {
@@ -100,22 +127,57 @@ p.links:hover{
     background-color: #e73e68;
 }
 
-section.drop{
-    background-color: #e73e68;
-    margin-top: 0px;
+#drop{
+    display:flex;
 }
 
-div.drop{
-    margin-top: 0px;
-    border:1px;
+section.drop{
+    background-color: #e73e68;
+    padding:20px;
     color:white;
 }
 
+.dl{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.dropCon {
+    margin-bottom: 5px;
+}
+
+p.dropCon{
+    width: 275px;
+    font-size: larger;
+}
+
+h1{
+    color:#ffff8a;
+    font-size:xx-large;
+}
+
+.bling{
+    height: 150px;
+    border: 7px solid white;
+    margin: 10px;
+}
+
+section.body{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom:40px;
+}
+
 footer {
-    display: flex;
-    justify-content: flex-end;
     background-color: #ff7291;
     padding: 5px;
+    height: 40px;
+}
+
+.test{
+    display: flex;
+    justify-content: end;
 }
 
 b.bottom {
@@ -127,3 +189,4 @@ b.bottom {
 b.bottom:hover{
     text-decoration: underline;
 }
+
