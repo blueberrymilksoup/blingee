@@ -2,15 +2,17 @@
 
 
 #home{
-    background-color: #e73e68;
+    background-color: #fd575f;
 }
 
 #drop{
     display:flex;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 section.drop{
-    background-color: #e73e68;
+    background-color: #fd575f;
     padding:20px;
     color:white;
 }
