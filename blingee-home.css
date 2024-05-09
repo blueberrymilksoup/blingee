@@ -1,0 +1,48 @@
+
+
+
+#home{
+    background-color: #e73e68;
+}
+
+#drop{
+    display:flex;
+}
+
+section.drop{
+    background-color: #e73e68;
+    padding:20px;
+    color:white;
+}
+
+.dl{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.dropCon {
+    margin-bottom: 5px;
+}
+
+p.dropCon{
+    width: 275px;
+    font-size: larger;
+}
+
+h1{
+    color:#ffff8a;
+    font-size:xx-large;
+}
+
+.bling{
+    height: 150px;
+    border: 7px solid white;
+    margin: 10px;
+}
+
+section.body{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom:40px;
+}

@@ -123,50 +123,23 @@ p.links:hover{
     color:yellow;
 }
 
-#home{
-    background-color: #e73e68;
+a.links:hover{
+    color:yellow;
 }
 
-#drop{
-    display:flex;
-}
-
-section.drop{
-    background-color: #e73e68;
-    padding:20px;
-    color:white;
-}
-
-.dl{
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.dropCon {
-    margin-bottom: 5px;
-}
-
-p.dropCon{
-    width: 275px;
+a.links {
+    padding: 10px;
+    border: solid #ffa6b2 1px;
+    border-bottom: transparent;
+    border-top-color: #e73e68;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    background-color: #ff809f;
+    color: white;
     font-size: larger;
-}
-
-h1{
-    color:#ffff8a;
-    font-size:xx-large;
-}
-
-.bling{
-    height: 150px;
-    border: 7px solid white;
-    margin: 10px;
-}
-
-section.body{
-    display:flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    margin-bottom:40px;
+    margin-bottom: 0px;
+    margin-top:10px;
+    text-decoration:none;
 }
 
 footer {
